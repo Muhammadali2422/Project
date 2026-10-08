@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hayitboyev Muhammadali</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+</head>
+<>
+    <header>
+        <div class="language-switcher">
+            <button class="lang-btn active" data-lang="uz">🇺🇿 UZ</button>
+            <button class="lang-btn" data-lang="en">🇬🇧 EN</button>
+            <button class="lang-btn" data-lang="ru">🇷🇺 RU</button>
+        </div>
+        <h1 data-i18n="name">Hayitboyev Muhammadali</h1>
+
+        <p data-i18n="job">Front-end Developer</p>
+        
+        <nav>
+            <a href="#about" data-i18n="navAbout">Men haqimda</a>
+            <a href="#skills" data-i18n="navSkills">Ko‘nikmalar</a>
+            <a href="#projects" data-i18n="navProjects">Loyihalar</a>
+            <a href="#contact" data-i18n="navContact">Aloqa</a>
+        </nav>
+        <img src="" alt="Hayitboyev Muhammadali">
+        <div class="container">
+            <div class="box">M</div>
+        </div>
+    </header>
+
+    <main>
+        <section id="about" class="about">
+            <h2  data-i18n="aboutTitle" >About me</h2>
+            <p data-i18n="aboutText">
+                Men HTML, CSS, JavaScript va biroz React.js bo'yicha malakaga ega, 
+                ishtiyoqli front-end dasturchiman. Foydalanuvchilarga qulay va 
+                jozibali veb-ilovalarni yaratishdan zavqlanaman, g'oyalarni funksional 
+                va ko'rinishga ega raqamli tajribalarga aylantiraman. Mening 
+                loyihalarim orasida real vaqtda ob-havo ma'lumotlarini taqdim 
+                etuvchi Ob-havo Ilovasi, valyuta ayirboshlash kurslarini hisoblaydigan 
+                Valyuta Konvertor va foydalanuvchilarni qiziqarli o'yin bilan sinaydigan 
+                15-Puzzle o'yini mavjud. Men toza va samarali kod yozishga sodiqman va 
+                yangi yechimlar yaratish uchun doimiy ravishda ko'nikmalarimni rivojlantiraman.
+            </p>
+        </section>
+
+        <section id="skills" class="skills">
+            <h2  data-i18n="skillsTitle">Skills</h2>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>React</li>
+                <li>Git</li>
+            </ul>
+        </section>
+
+        <section id="projects" class="projects">
+            <h2  data-i18n="projectsTitle">Projects</h2>
+            <div class="project">
+                <h3><a href="https://github.com/Muhammadali2422/weather" target="_blank"> <span data-i18n="weather">Ob-havo</span> <i class="bi bi-box-arrow-up-right"></i></a></h3>
+            </div>
+            <div class="project">
+                <h3><a href="https://github.com/Muhammadali2422/valute" target="_blank"><span data-i18n="currency">Valyuta konvertori</span><i class="bi bi-box-arrow-up-right"></i></a></h3>
+            </div>
+            <div class="project">
+                <h3><a href="https://github.com/Muhammadali2422/16-game" target="_blank"> <span data-i18n="puzzle">16 Puzzle o‘yini</span> <i class="bi bi-box-arrow-up-right"></i></a></h3>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <h2 data-i18n="contactTitle">Contact</h2>
+            <i class="bi bi-telegram" style="color: #02d9ff; font-size: 20px;"></i>
+            <a href="https://t.me/@Muhammad_2422" target="_blank">@Muhammad_2422</a>
+            <br>
+            <i class="bi bi-telephone-fill" style="color: #0230ff; font-size: 20px;"></i> 
+            <a href="tel:+998 90 579 24 22">+998 90 579 24 22</a>
+        </section>
+    </main>
+
+    <footer>
+        <p data-i18n="footer">&copy; 2026 Muhammadali</p>
+    </footer>
+    <script src="./language.js"></script>
+</body>
+</html>
